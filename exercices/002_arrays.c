@@ -11,6 +11,12 @@ int main() {
   for (int i = 0; i < (sizeof array/ sizeof array[0]); i++) {
     printf("%d\n", array[i]);
   }
+  
+  int countdown = 0;
+
+  while(countdown < 10) {
+      printf("Current count:%d\n", countdown++);
+  }
 
   return 0;
 }
